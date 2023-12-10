@@ -2,10 +2,20 @@ html,
 body {
   overflow-x: hidden;
   overflow-y: auto;
+  width: 100%;
+  border:2px solid red ;
+  text-align: center;
 }
 
 
 /* ------navbar design start------- */
+.nav-extra{
+  float: right;
+}
+header, nav{
+  width: 100%;
+  text-align: center;
+}
 .navli-dgn {
   padding-left: 10px;
   font-size: small;
@@ -14,7 +24,7 @@ body {
 }
 
 nav .navbar-nav li a {
-  color: rgb(36, 115, 218) !important;
+  color: #1074bc!important;
 
 }
 
@@ -48,7 +58,7 @@ nav .navbar-nav li a .pricing {
 
 /* child design */
 .hero-section-design {
-  background-color: rgba(52, 122, 168, 0.828);
+  background-color: #1074bcaf;
 
   color: aliceblue;
 
@@ -241,26 +251,26 @@ ul {
 }
 
 .fa-border-icon {
-  border-color: rgb(151, 207, 225) !important;
+  border-color: #1074bc !important;
   border-width: 2px !important;
   border-radius: 53px !important;
 }
 
 .fa-border-icon2 {
-  border-color: rgb(151, 207, 225) !important;
+  border-color: #1074bc !important;
   border-width: 2px !important;
   border-radius: 84% 80% 84% 80% !important;
 }
 
 .icon {
-  color: rgb(151, 207, 225);
+  color: #1074bc;
 }
 
 /*------------- quality service --------*/
 
 /* h1 tag style */
 .quality {
-  color: rgb(0, 119, 255);
+  color: #1074bc;
 }
 
 /* quality service p tag style */
@@ -270,7 +280,7 @@ ul {
 }
 
 .quality-card {
-  border-color: rgb(0, 119, 255) !important;
+  border-color: #1074bc !important;
   transition: 0.25s ease;
 }
 
@@ -290,16 +300,11 @@ ul {
 /*--------------- Exclusive Card Design section --------------------*/
 
 .exclusive-card-design {
-  border-color: rgb(0, 119, 255) !important;
+  border-color: #1074bc !important;
   box-shadow: 2px 5px rgb(239, 239, 237);
   border-radius: 15px !important;
 }
-.exclusive-card-design:hover img {
-  transform: rotate(360deg);
-  transition: transform 3s ease;
-  overflow: hidden;
-}
-  
+ 
 
 /*-------------- 7years experience----------------- */
 .experience-p {
@@ -308,7 +313,7 @@ ul {
 }
 
 .experience-h3 {
-  color: rgba(23, 106, 161, 0.828);
+  color: #1074bc;
   font-size: 30px;
 
 }
@@ -333,7 +338,7 @@ ul {
 }
 
 .caro-icon {
-  background-color: blue !important;
+  background-color: #1074bc!important;
 }
 
 
@@ -350,7 +355,7 @@ ul {
   font-family: Arial, Helvetica, sans-serif;
 }
 .in-numbers-card-design{
-  border-color: rgb(0, 119, 255) !important;
+  border-color: #1074bc !important;
  
   border-radius: 15px !important;
 
@@ -364,13 +369,13 @@ ul {
 
 }
 .in-numbers-card-design:hover {
-  background-color: #e5ebeb;
+  background-color: #d6ecfb;
 }
 
 
 /*------------------- Footer -------------------- */
 .footer-design {
-  background-color: rgba(52, 122, 168, 0.828);
+  background-color: #1074bc;
 
   color: aliceblue;
 }
